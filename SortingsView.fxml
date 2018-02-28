@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sortings.SortingsController">
+   <children>
+      <ComboBox fx:id="algoBox" layoutX="78.0" layoutY="446.0" prefWidth="150.0" />
+      <Slider fx:id="arraySizeSlider" layoutX="325.0" layoutY="451.0" prefHeight="16.0" prefWidth="350.0" />
+      <Label layoutX="11.0" layoutY="451.0" text="Algorithm" />
+      <Label layoutX="249.0" layoutY="450.0" text="Array Size" />
+      <Button fx:id="sortBtn" layoutX="720.0" layoutY="446.0" mnemonicParsing="false" onAction="#sortBtn_Click" prefHeight="27.0" prefWidth="53.0" text="Sort" />
+      <Button fx:id="resetBtn" layoutX="790.0" layoutY="445.0" mnemonicParsing="false" onAction="#resetBtn_Click" text="Reset" />
+      <Label fx:id="arraySizeLabel" layoutX="679.0" layoutY="450.0" prefHeight="17.0" prefWidth="31.0" />
+      <Pane fx:id="view" layoutX="11.0" layoutY="7.0" prefHeight="431.0" prefWidth="832.0" />
+   </children>
+</AnchorPane>
